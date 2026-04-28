@@ -1,0 +1,68 @@
+{
+  "name": "nezuko",
+  "version": "1.0.0",
+  "description": "Nezuko HR management system built with Node.js, Express, MongoDB, PostgreSQL, and React.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "test:watch": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --watch",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nezuko-G/Portal-Api.git"
+  },
+  "keywords": [
+    "hr-system",
+    "nezuko",
+    "management",
+    "attendance",
+    "employees",
+    "backend",
+    "nodejs"
+  ],
+  "author": "Nezuko Team",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/aelaraby6/Nezuko-HR/issues"
+  },
+  "homepage": "https://github.com/aelaraby6/Nezuko-HR#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "i18n": "^0.15.3",
+    "joi": "^18.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0",
+    "multer": "^2.0.2",
+    "node-cache": "^5.1.2",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.11",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^8.13.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "streamifier": "^0.1.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "validator": "^13.15.23"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.2.2"
+  }
+}
